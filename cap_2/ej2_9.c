@@ -19,8 +19,7 @@ main(){
 	
 	for(i=0;i<6;i++){
 		fprintf(fd[i], "Mensaje dirigido al flujo nro. %d\n", i);
-	}
-	for(i=0;i<6;i++){
 		fclose(fd[i]);
 	}
+	
 }

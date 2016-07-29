@@ -6,6 +6,7 @@
 #ifndef MIC_H
 #define MIC_H
 #include <stdio.h>
+#include <stdlib.h>
 #include <errno.h>
 //char errores [] ={};
 void error(char *nfichero, int nro_linea, char *mensaje){
